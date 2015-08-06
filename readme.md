@@ -1,4 +1,4 @@
-Basic account validation based on checksum for specific countries
+Basic account number validation based on checksum for specific countries
 ---------
 
 Use make file for run test. `make tests`
