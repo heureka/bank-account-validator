@@ -1,0 +1,21 @@
+{
+    "name": "heureka/bankAccountValidator",
+    "description": "Simple validator for bank account number - verify only checksum",
+    "type": "library",
+    "minimum-stability": "dev",
+    "require-dev": {
+        "phpunit/phpunit": "~4.4.0"
+    },
+    "license": "GNU PL",
+    "authors": [
+        {
+            "name": "Jan Navratil",
+            "email": "jan.navratil@heureka.cz"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "BankAccountValidator\\": ["app/"]
+        }
+    }
+}
