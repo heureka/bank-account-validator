@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/heureka/bank-account-validator.svg?branch=master)](https://travis-ci.org/heureka/bank-account-validator)
+
 Basic account number validation based on checksum for specific countries
 ---------
 
