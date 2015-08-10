@@ -17,7 +17,7 @@ composer require heureka/bankAccountValidator
 
 require_once __DIR__ . '/vendor/autoload.php';
 
-$validator = new BankAccountValidator/Czech();
+$validator = new BankAccountValidator\Czech();
 $isValid = $validator->validate('333-123/0123');
 
 ```

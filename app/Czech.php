@@ -109,7 +109,7 @@ class Czech implements ValidatorInterface
         if (!$this->validateBankCode($bankCode)) {
             return false;
         }
-        
+
         if (null !== $firstPart && !$this->validateCheckSum($firstPart)) {
             return false;
         }
@@ -201,13 +201,13 @@ PATTERN;
         $firstPart = $secondPart = $bankCode = null;
 
         preg_match($pattern, $bankAccountNumber, $match);
-        if (isset($match[6])) {
+        if (!empty($match[6])) {
             $bankCode = $match[6];
         }
-        if (isset($match[2]) && isset($match[3])) {
+        if ('' !== $match[2] && '' !== $match[3]) {
             $firstPart = $match[2];
             $secondPart = $match[3];
-        } elseif (isset($match[5])) {
+        } elseif (!empty($match[5])) {
             $secondPart = $match[5];
         }
 

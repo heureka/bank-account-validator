@@ -47,7 +47,7 @@ class CzechTest extends \PHPUnit_Framework_TestCase
         return [
             [
                 [null, null, null],
-                "ASD"
+                'ASD'
             ],
             [
                 [null, null, null],
@@ -55,32 +55,36 @@ class CzechTest extends \PHPUnit_Framework_TestCase
             ],
             [
                 ['0', '12', '1234'],
-                "0-12/1234"
+                '0-12/1234'
             ],
             [
-                [null, null, null],
-                "0-2/1234"
+                ['0', '12', '1234'],
+                '0-12/1234'
+            ],
+            [
+                [null, '196437539', '0100'],
+                '196437539/0100'
             ],
             [
                 //if one part is incorrect no matches returns
                 [null, null, null],
-                "21231221/123"
+                '21231221/123'
             ],
             [
                 [null, null, null],
-                "21231221/12312"
+                '21231221/12312'
             ],
             [
                 ['123456', '0000000123', '0000'],
-                "123456-0000000123/0000"
+                '123456-0000000123/0000'
             ],
             [
                 [null, null, null],
-                "123456-00000000123/0000"
+                '123456-00000000123/0000'
             ],
             [
                 [null, null, null],
-                "1234567-000000123/0000"
+                '1234567-000000123/0000'
             ]
         ];
     }
@@ -88,6 +92,7 @@ class CzechTest extends \PHPUnit_Framework_TestCase
     public function validateProvider()
     {
         return [
+
             [
                 false,
                 '196437539/0100'
@@ -114,6 +119,10 @@ class CzechTest extends \PHPUnit_Framework_TestCase
             ],
             [
                 true,
+                '0086-3055103/2030'
+            ],
+            [
+                false,
                 '0086-3055103/30'
             ],
         ];
