@@ -1,5 +1,6 @@
 {
     "name": "heureka/bankAccountValidator",
+    "version": "1.0.0",
     "description": "Simple validator for bank account number - verify only checksum",
     "type": "library",
     "minimum-stability": "dev",
