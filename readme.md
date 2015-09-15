@@ -11,7 +11,7 @@ Usage
 Install with [composer](https://getcomposer.org/):
 
 ```bash
-composer require heureka/bankAccountValidator
+composer require heureka/bank-account-validator
 ```
 
 ```php
