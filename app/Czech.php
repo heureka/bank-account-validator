@@ -216,4 +216,14 @@ PATTERN;
 
         return [$firstPart, $secondPart, $bankCode];
     }
+    
+    /**
+     * Returns all valid czech bank codes
+     *
+     * @return array
+     */
+    public function getValidBankCodes()
+    {
+        return $this->validBankCodes;
+    }
 }
