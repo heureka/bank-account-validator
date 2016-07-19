@@ -41,6 +41,14 @@ class CzechTest extends \PHPUnit_Framework_TestCase
         $this->assertSame($expected, $this->validator->validate($accountNumber));
     }
 
+    /**
+     * @expectedException \BankAccountValidator\MissingBankCodesFileException
+     */
+    public function testInvalidBankCodesFile()
+    {
+        new Czech('/tmp/invalid-file-name-with-random-name-' . rand(0, 10000) . '-' . time());
+    }
+
 
     public function parseNumberProvider()
     {
