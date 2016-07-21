@@ -1,0 +1,53 @@
+﻿Kód platebního styku;Poskytovatel platebních služeb;BIC kód (SWIFT);Systém CERTIS
+0100;Komerční banka, a.s.;KOMBCZPP;A
+0300;Československá obchodní banka, a.s.;CEKOCZPP;A
+0600;MONETA Money Bank, a.s.;AGBACZPP;A
+0710;Česká národní banka;CNBACZPP;A
+0800;Česká spořitelna, a.s.;GIBACZPX;A
+2010;Fio banka, a.s.;FIOBCZPP;A
+2020;MUFG Bank (Europe) N.V. Prague Branch;BOTKCZPP;A
+2030;AKCENTA, spořitelní a úvěrní družstvo;;A
+2060;Citfin, spořitelní družstvo;CITFCZPP;A
+2070;Moravský Peněžní Ústav – spořitelní družstvo;MPUBCZPP;A
+2100;Hypoteční banka, a.s.;;A
+2200;Peněžní dům, spořitelní družstvo;;A
+2210;ERB bank, a.s.;FICHCZPP;A
+2220;Artesa, spořitelní družstvo;ARTTCZPP;A
+2240;Poštová banka, a.s., pobočka Česká republika;POBNCZPP;A
+2250;Záložna CREDITAS, spořitelní družstvo;CTASCZ22;A
+2260;ANO spořitelní družstvo;;-
+2310;ZUNO BANK AG, organizační složka;ZUNOCZPP;A
+2600;Citibank Europe plc, organizační složka;CITICZPX;A 
+2700;UniCredit Bank Czech Republic and Slovakia, a.s.;BACXCZPP;A
+3030;Air Bank a.s.;AIRACZPP;A
+3050;BNP Paribas Personal Finance SA, odštěpný závod;;-
+3500;ING Bank N.V.;INGBCZPP;A
+4000;Expobank CZ a.s.;EXPNCZPP;A
+4300;Českomoravská záruční a rozvojová banka, a.s.;CMZRCZP1;A
+5400;The Royal Bank of Scotland plc, organizační složka;ABNACZPP;A
+5500;Raiffeisenbank a.s.;RZBCCZPP;A
+5800;J & T BANKA, a.s.;JTBPCZPP;A 
+6000;PPF banka a.s.;PMBPCZPP;A
+6100;Equa bank a.s.;EQBKCZPP;A
+6200;COMMERZBANK Aktiengesellschaft, pobočka Praha;COBACZPX;A
+6210;mBank S.A., organizační složka;BREXCZPP;A
+6300;BNP Paribas Fortis SA/NV, pobočka Česká republika;GEBACZPP;A
+6700;Všeobecná úverová banka a.s., pobočka Praha;SUBACZPP;A
+6800;Sberbank CZ, a.s.;VBOECZ2X;A
+7910;Deutsche Bank Aktiengesellschaft Filiale Prag, organizační složka;DEUTCZPX;A
+7940;Waldviertler Sparkasse Bank AG;SPWTCZ21;A
+7950;Raiffeisen stavební spořitelna a.s.;;A
+7960;Českomoravská stavební spořitelna, a.s.;;A
+7970;Wüstenrot-stavební spořitelna a.s.;;A
+7980;Wüstenrot hypoteční banka a.s.;;A
+7990;Modrá pyramida stavební spořitelna, a.s.;;A
+8030;Raiffeisenbank im Stiftland eG pobočka Cheb, odštěpný závod;GENOCZ21;A
+8040;Oberbank AG pobočka Česká republika;OBKLCZ2X;A
+8060;Stavební spořitelna České spořitelny, a.s.;;A
+8090;Česká exportní banka, a.s.;CZEECZPP;A
+8150;HSBC Bank plc - pobočka Praha;MIDLCZPP;A
+8200;PRIVAT BANK AG der Raiffeisenlandesbank Oberösterreich Aktiengesellschaft, pobočka Česká republika;;-
+8220;Payment Execution s.r.o.;PAERCZP1;-
+8230;EEPAYS s.r.o.;EEPSCZPP;-
+8240;Družstevní záložna Kredit;;-
+8250;Bank of China (Hungary) Close Ltd. Prague branch, odštěpný závod;BKCHCZPP;-
