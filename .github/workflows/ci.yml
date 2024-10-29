@@ -12,3 +12,4 @@ jobs:
     - uses: php-actions/phpunit@v4
       with:
         args: --colors
+        php_version: 5.6
