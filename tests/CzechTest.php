@@ -133,6 +133,10 @@ class CzechTest extends \PHPUnit_Framework_TestCase
                 false,
                 '0086-3055103/30'
             ],
+            [
+                false,
+                ''
+            ]
         ];
     }
 }

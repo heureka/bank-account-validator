@@ -60,7 +60,7 @@ class Czech implements ValidatorInterface
             $parts = $this->parseNumber($bankAccountNumber);
         }
 
-        if (empty($parts)) {
+        if (empty(array_filter($parts))) {
             return false;
         }
         list($firstPart, $secondPart, $bankCode) = $parts;
